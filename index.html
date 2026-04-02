@@ -2,110 +2,132 @@
 <html lang="es">
 
 <head>
-
-    <meta charset="UTF-8"> <!--funcion de caracteres-->
-    <meta http-equiv="X-UA-compatible" content="IE=edge"> <!--adaptable a navegadores-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--adaptable a otro-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida</title>
-    <style>
-        h2 {
-            color: rgb(7, 14, 39);
-        }
-
-        table {
-            text-align: center;
-        }
-
-        p {
-            color: blueviolet;
-        }
-
-        strong {
-            color: black;
-        }
-
-        body {
-            background-color: rgb(192, 241, 225);
-        }
-    </style>
+    <link rel="stylesheet" href="pagina/estilos.css">
 </head>
 
 <body>
-    <center> <!--Sirve para centrar el texto-->
-        <div style="width: 50%; border: solid 1px; background-color: #f0f0f0;   "><br></br> 
+    <center>
+        <div class="di">
 
-            <table border="9" width="800px" style="text-align:center;">
-                <tr>
-                    <td colspan="2">
-                        <h1>Hoja de vida</h1>
-                    </td>
-                </tr>
-                <td>
-                    <p><strong>Nombre: </strong> Alvarez Nicolalde Mario Damian</p>
-                <td>
-                    <p><strong>Email: </strong> elbarto@gmail.com</p>
-                </td>
-                </td>
-                <tr>
-                    <td>
-                        <p><strong>Teléfono: </strong> 0987945625</p>
-                    <td>
-                        <p><strong>Dirección: </strong> Quito</p>
-                    </td>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <h2>Perfil Profesional</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p>Certificados apelados por el ministerio del trabajo y la senecyt<br>Estudiante de la carrera
-                            de Desarrollo de software</br></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <h2>Estudios</h2>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <p>Unidad Educativa Malchingui,<br>Sociedad Ecuatoriana De Formación Académica</br></p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <strong>Título de bachiller</strong> <br>2021-2024</br>
-                    </td>
-                    <td>
-                        <p> <strong>Experiencia Laboral: </strong> Ninguna</p>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2">
-                        <h3>Habilidades</h3>
-                    </td>
-                <tr>
-                    <td colspan="2">
-                        <p>Resolución de problemas <br>Habilidades Técnicas <br>
-                            Trabajo en equipo <br>Adaptabilidad <br>Flexibilidad </p>
-                    </td>
-                </tr>
-                </tr>
-                <tr>
-                    <td>
-                        <h3>Referencias:</h3>
+            <div>
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <h1>Hoja de vida</h1>
+                        </td>
+                    </tr>
 
-                    </td>
-                    <td> &nbsp;</td>
-                </tr>
-            </table>
-            <br>
+                    <tr>
+                        <td>
+                            <p><strong>Nombre: </strong> Alvarez Nicolalde Mario Damian</p>
+                        </td>
+                        <td>
+                            <p><strong>Email: </strong> elbarto@gmail.com</p>
+                        </td>
+                    </tr>
 
+                    <tr>
+                        <td>
+                            <p><strong>Teléfono: </strong> 0987945625</p>
+                        </td>
+                        <td>
+                            <p><strong>Dirección: </strong> Quito</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <h2>Perfil Profesional</h2>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                Certificados apelados por el ministerio del trabajo y la senecyt.
+                                Estudiante de la carrera de Desarrollo de software.
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <h2>Estudios</h2>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <p>
+                                Unidad Educativa Malchingui,
+                                Sociedad Ecuatoriana De Formación Académica
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <strong>Título de bachiller</strong>
+                            <p>2021-2024</p>
+                        </td>
+                        <td>
+                            <strong>Experiencia Laboral:</strong>
+                            <p>Ninguna</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <h3>Habilidades</h3>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2">
+                            <input type="checkbox" id="Resolución" name="Resolución" value="Resolución">
+                            <label for="Resolución">Resolución de problemas</label>
+
+                            <hr>
+                            <input type="checkbox" id="Habilidades" name="Habilidades" value="Habilidades">
+                            <label for="Habilidades">Habilidades Técnicas</label>
+
+                            <hr>
+                            <input type="checkbox" id=" trabajo" name=" trabajo" value=" trabajo">
+                            <label for=" trabajo"> Trabajo en equipo</label>
+                            <hr>
+                            <input type="checkbox" id=" Adaptabilidad" name=" Adaptabilidad" value=" Adaptabilidad">
+                            <label for=" Adaptabilidad"> Adaptabilidad</label>
+                            <hr>
+                            <input type="checkbox" id="Flexibilidad" name="Flexibilidad" value="Flexibilidad">
+                            <label for="Flexibilidad">Flexibilidad</label>
+
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <h3>Referencias:</h3>
+                        </td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button class="btn-principal"
+                                onclick="this.classList.add('enviado'); this.innerHTML = '✓ Enviado';">Enviar</button>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+
+        </div>
     </center>
-   </div>
+
 </body>
 
 </html>

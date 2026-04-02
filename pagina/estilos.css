@@ -1,0 +1,85 @@
+ h1,
+ h2,
+ h3 {
+     color: rgb(7, 14, 39);
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+
+ p {
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ }
+
+ table {
+     text-align: center;
+ }
+
+
+ p {
+     color: blueviolet;
+ }
+
+ strong {
+     color: black;
+ }
+
+ body {
+     background-color: rgb(192, 241, 225);
+ }
+
+ table {
+     border: solid 9px;
+     margin-top: 2%;
+     width: 800px;
+     text-align: center;
+      margin-bottom: 30px;
+ }
+
+ tr,
+ th,
+ td {
+     border: solid 2px;
+ }
+
+ .di {
+     width: 50%;
+     margin-top: 2%;
+     border: solid 1px;
+     background-color: #f0f0f0;
+     background-image: url(https://i.pinimg.com/originals/11/b5/9f/11b59fc2ca7c1bc1fc843ec77acf6758.gif);
+ }
+
+ .btn-principal {
+     background-color: #007bff;
+     /* Color de fondo */
+     color: white;
+     /* Color de texto */
+     padding: 15px 22px;
+     /* Espaciado interno */
+     border-radius: 10px;
+     /* Esquinas redondeadas */
+     cursor: pointer;
+     /* Cursor de mano */
+    
+ }
+
+
+ label {
+     display: inline-block;
+     padding: 10px 0;
+     color: #333;
+ }
+
+ /*pasa cursor por encima cambia de color */
+ label:hover {
+     color: #007bff;
+ }
+
+ hr {
+     border: 0;
+     margin: 0;
+ }
+
+ /*Cursor cambie al momento de pasar por encima*/
+ input[type="checkbox"] {
+     cursor: pointer;
+ }
